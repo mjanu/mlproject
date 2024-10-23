@@ -59,7 +59,8 @@ if __name__=="__main__":
 
     modeltrainer=ModelTrainer()
 
-    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+    best_r2_score_of_model=modeltrainer.initiate_model_trainer(train_arr,test_arr)
+    print(best_r2_score_of_model)
 
 
     
